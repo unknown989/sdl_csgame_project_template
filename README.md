@@ -1,25 +1,43 @@
-# Welcome, Welcome
+# Welcome Welcome
 
-So, this repo is built following my personal coding quirks—think of it as the “old-school” style of coding, where no fancy IDEs are involved. Just **VSCode** and a  **terminal**. ill do my best to guide you through setting it up, don’t worry!
-Btw, the repo, as i mentioned in lexue, has SDL2, SDL2_image, SDL2_ttf, SDL2_mixer and nova physics
+Welcome to the repo! This is where I channel my coding quirks, embracing the "old-school" style of development. No fancy IDEs here—just **VSCode** and a good ol' **terminal**. I'm here to help you get everything set up, so don't worry if you're not sure where to start! 
 
-## Prerequisites
+As a quick note, this project uses the **SDL2(base, ttf, mixer and image)** suite along with **nova physics** for some extra fun, just as mentioned in Lexue. Here’s what you’ll need to get up and running.
 
-You’ll need **Clang++** (because who needs GCC, right?). Well, GCC *can* work, but I stopped testing it at some point.
-Follow this guide to get Clang on your Windows system:  
-[Clang on Windows Setup](https://wetmelon.github.io/clang-on-windows.html)
+---
 
-After doing so, go to [SDL2 Release page](https://github.com/libsdl-org/SDL/releases) go to assets and download **SDL2-2.32.0-win32-x64.zip**, then extract it and put the DLL's in your System32 folder **C:\Windows\System32**(so that u can link it both statistically and dynamically)
-Do the same for [SDL2_image](https://github.com/libsdl-org/SDL_image/releases/) get **SDL2_image-2.8.5-win32-x64.zip**,  [SDL2_ttf](https://github.com/libsdl-org/SDL_ttf/releases/) get **SDL2_ttf-2.24.0-win32-x64.zip**, and lastly [SDL2_mixer](https://github.com/libsdl-org/SDL_mixer/releases/) get **SDL2_mixer-2.8.1-win32-x64.zip**
+## Prerequisites ⚙️
 
+You’ll need **Clang++** for the build process (because, honestly, who needs GCC? 😜). Well, okay—GCC *can* work, but I stopped testing it a while back. If you're on Windows, follow this guide to get **Clang++** installed:
 
-For the nova physics engine, this is the github repo [nova-physics](https://github.com/kadir014/nova-physics/), take a look if u wanna use it, this is the website if u wanna take a look at their docs [nova-physics website](nova-physics.rtfd.io)
+- [Clang on Windows Setup](https://wetmelon.github.io/clang-on-windows.html)
 
-## Building the Project
+After that, head over to the SDL2 and other required libraries to grab the necessary files:
 
-### Option 1: Not Experienced with Makefiles
-If you’re not into **Makefiles** or just want to keep it simple, just double-click the **run.bat** file and let it work its magic. Or you can run it from the terminal.
+### 1. **SDL2**:
+- Go to the [SDL2 Release page](https://github.com/libsdl-org/SDL/releases) and download **SDL2-2.32.0-win32-x64.zip**. 
+- Extract it and place the **DLLs** in your **C:\Windows\System32** folder so that you can link it both statically and dynamically.
 
-### Option 2: Experienced with Makefiles
-You know what to do. hehe
+### 2. **SDL2_image**:
+- Download the latest release from [SDL2_image](https://github.com/libsdl-org/SDL_image/releases/) — grab **SDL2_image-2.8.5-win32-x64.zip** and do the same thing mentioned in step 1.
 
+### 3. **SDL2_ttf**:
+- Download the latest release from [SDL2_ttf](https://github.com/libsdl-org/SDL_ttf/releases/) — grab **SDL2_ttf-2.24.0-win32-x64.zip** and do the same thing mentioned in step 1.
+
+### 4. **SDL2_mixer**:
+- Download the latest release from [SDL2_mixer](https://github.com/libsdl-org/SDL_mixer/releases/) — grab **SDL2_mixer-2.8.1-win32-x64.zip** and do the same thing mentioned in step 1.
+
+### 5. **Nova Physics**:
+- Check out the [Nova Physics GitHub repo](https://github.com/kadir014/nova-physics/) if you want to explore its source. Also, the [Nova Physics docs](https://nova-physics.rtfd.io) are there if you want more details on how it works!
+
+---
+
+## Building the Project 🏗️
+
+### Option 1: The Easy Way (No Makefile Fuss)
+If you’re not a fan of **Makefiles** or just prefer a simpler route, just double-click the **run.bat** file and let it do its thing. You can also run it directly from the terminal if you prefer.
+
+### Option 2: The Makefile Way (For the Pros 😎)
+You know what to do hehe
+
+---
