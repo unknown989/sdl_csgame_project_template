@@ -12,7 +12,7 @@ Follow this guide to get Clang on your Windows system:
 ## Building the Project
 
 ### Option 1: Not Experienced with Makefiles
-If you’re not into **Makefiles** or just want to keep it simple, just double-click the **run.bat** file and let it work its magic. Or you can run it from the terminal if you’re feeling fancy.
+If you’re not into **Makefiles** or just want to keep it simple, just double-click the **run.bat** file and let it work its magic. Or you can run it from the terminal.
 
 ### Option 2: Experienced with Makefiles
 You know what to do. hehe
