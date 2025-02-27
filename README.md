@@ -8,7 +8,7 @@ As a quick note, this project uses the **SDL2(base, ttf, mixer and image)** suit
 
 ## Prerequisites ⚙️
 
-You’ll need **Clang++** for the build process (because, honestly, who needs GCC? 😜). Well, okay—GCC *can* work, but I stopped testing it a while back. If you're on Windows, follow this guide to get **Clang++** installed:
+You’ll need **Clang++** for the build process but GCC *can* work, but I stopped testing it a while back. If you're on Windows, follow this guide to get **Clang++** installed:
 
 - [Clang on Windows Setup](https://wetmelon.github.io/clang-on-windows.html)
 
