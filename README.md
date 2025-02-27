@@ -1,6 +1,7 @@
 # Welcome, Welcome
 
 So, this repo is built following my personal coding quirks—think of it as the “old-school” style of coding, where no fancy IDEs are involved. Just **VSCode** and a  **terminal**. ill do my best to guide you through setting it up, don’t worry!
+Btw, the repo, as i mentioned in lexue, has SDL2, SDL2_image, SDL2_ttf, SDL2_mixer and nova physics
 
 ## Prerequisites
 
